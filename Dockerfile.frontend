@@ -6,7 +6,7 @@ WORKDIR /app
 RUN apk add --no-cache git
 
 # Clone your frontend repo
-RUN git clone https://github.com/SajjaTulasiKrishna/gitdockerfrontend.git .
+RUN git clone https://github.com/veeresh32078/git-docker-frontend-sec113 .
 
 # Install dependencies as root first
 RUN npm install -g vite
